@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest">
+      <class name="com.bunchapp.testCases.OnboardingOptionsTest">
         <methods>
+          <include name="validateRegistrationPageContent"/>
           <include name="setUp"/>
           <include name="setup"/>
-          <include name="EnterInvalidPhoneNumber"/>
-          <include name="EnterValidPhoneNumberAndClickContinue"/>
           <include name="tearDown"/>
+          <include name="validateContinueButton"/>
         </methods>
-      </class> <!-- com.bunchapp.testCases.RegistrationUsingPhoneNumberTest -->
+      </class> <!-- com.bunchapp.testCases.OnboardingOptionsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

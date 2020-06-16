@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">11 methods, 4 failed,   7 passed</span>
+                    <span class="method-stats">11 methods, 3 failed,   8 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -102,12 +102,7 @@
                     <div class="method-list-content failed suite-bunchapptestsuite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest" class="method navigator-link" hash-for-method="invalidPhoneNumberRegistration">invalidPhoneNumberRegistration</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest" class="method navigator-link" hash-for-method="validPhoneNumberRegistration">validPhoneNumberRegistration</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.OnboardingOptionsTest" class="method navigator-link" hash-for-method="validateContinueButton">validateContinueButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -117,7 +112,7 @@
                       <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest" class="method navigator-link" hash-for-method="validateSpecialCharsNotAllowed">validateSpecialCharsNotAllowed</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.OnboardingOptionsTest" class="method navigator-link" hash-for-method="validateRegistrationPageContent">validateRegistrationPageContent</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-bunchapptestsuite -->
@@ -136,12 +131,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.FilterCountryTest" class="method navigator-link" hash-for-method="validateCloseButton">validateCloseButton</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest" class="method navigator-link" hash-for-method="invalidPhoneNumberRegistration">invalidPhoneNumberRegistration</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.OnboardingOptionsTest" class="method navigator-link" hash-for-method="validateContinueButton">validateContinueButton</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest" class="method navigator-link" hash-for-method="validPhoneNumberRegistration">validPhoneNumberRegistration</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.FilterCountryTest" class="method navigator-link" hash-for-method="validateCloseButton">validateCloseButton</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -161,7 +161,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.OnboardingOptionsTest" class="method navigator-link" hash-for-method="validateRegistrationPageContent">validateRegistrationPageContent</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-bunchapptestsuite" title="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest" class="method navigator-link" hash-for-method="validateSpecialCharsNotAllowed">validateSpecialCharsNotAllowed</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-bunchapptestsuite -->
@@ -179,6 +179,94 @@
           <div class="suite-bunchapptestsuite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">com.bunchapp.testCases.OnboardingOptionsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateContinueButton">
+                  </a> <!-- validateContinueButton -->
+                  <span class="method-name">validateContinueButton</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: Timed out after 10000 milliseconds waiting for root AccessibilityNodeInfo
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RR19-MB34.local&apos;, ip: &apos;2601:86:600:5040:0:0:0:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;11.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/Anand/git/BunchApp_A..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/git/BunchApp_A..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a7608800-1cf3-45ed-badf-1022346b7cf2
+*** Element info: {Using=xpath, value=//*[(@text = &apos;Continue with SMS&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.bunchapp.testCases.OnboardingOptionsTest.validateContinueButton(OnboardingOptionsTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegistrationPageContent">
+                  </a> <!-- validateRegistrationPageContent -->
+                  <span class="method-name">validateRegistrationPageContent</span>
+                  <div class="stack-trace">org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: io.appium.uiautomator2.common.exceptions.UiAutomator2Exception: Timed out after 10000 milliseconds waiting for root AccessibilityNodeInfo
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;RR19-MB34.local&apos;, ip: &apos;2601:86:600:5040:0:0:0:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;11.0.2&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/Anand/git/BunchApp_A..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/git/BunchApp_A..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a7608800-1cf3-45ed-badf-1022346b7cf2
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.widget.TextView}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at com.bunchapp.testCases.OnboardingOptionsTest.validateRegistrationPageContent(OnboardingOptionsTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bunchapptestsuite-class-failed -->
+          <div class="suite-bunchapptestsuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">com.bunchapp.testCases.FilterCountryTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -191,128 +279,6 @@
 	at com.bunchapp.testCases.FilterCountryTest.validateFilterSpecialCharacters(FilterCountryTest.java:70)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
 ... Removed 30 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-bunchapptestsuite-class-failed -->
-          <div class="suite-bunchapptestsuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.bunchapp.testCases.RegistrationUsingPhoneNumberTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalidPhoneNumberRegistration">
-                  </a> <!-- invalidPhoneNumberRegistration -->
-                  <span class="method-name">invalidPhoneNumberRegistration</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RR19-MB34.local&apos;, ip: &apos;2601:86:600:5040:0:0:0:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;11.0.2&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
-*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at com.bunchapp.testCases.RegistrationUsingPhoneNumberTest.invalidPhoneNumberRegistration(RegistrationUsingPhoneNumberTest.java:93)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validPhoneNumberRegistration">
-                  </a> <!-- validPhoneNumberRegistration -->
-                  <span class="method-name">validPhoneNumberRegistration</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RR19-MB34.local&apos;, ip: &apos;2601:86:600:5040:0:0:0:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;11.0.2&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
-*** Element info: {Using=xpath, value=//*[@text=&apos;Phone Number&apos; and @class=&apos;android.widget.EditText&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
-	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
-	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
-	at com.bunchapp.testCases.RegistrationUsingPhoneNumberTest.validPhoneNumberRegistration(RegistrationUsingPhoneNumberTest.java:53)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateSpecialCharsNotAllowed">
-                  </a> <!-- validateSpecialCharsNotAllowed -->
-                  <span class="method-name">validateSpecialCharsNotAllowed</span>
-                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;RR19-MB34.local&apos;, ip: &apos;2601:86:600:5040:0:0:0:702b%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.3&apos;, java.version: &apos;11.0.2&apos;
-Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
-	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
-	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
-	at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
-	at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
-	at com.bunchapp.testCases.RegistrationUsingPhoneNumberTest.validateSpecialCharsNotAllowed(RegistrationUsingPhoneNumberTest.java:32)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -350,28 +316,6 @@ Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
           <div class="suite-bunchapptestsuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.bunchapp.testCases.OnboardingOptionsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateContinueButton">
-                  </a> <!-- validateContinueButton -->
-                  <span class="method-name">validateContinueButton</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validateRegistrationPageContent">
-                  </a> <!-- validateRegistrationPageContent -->
-                  <span class="method-name">validateRegistrationPageContent</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-bunchapptestsuite-class-passed -->
-          <div class="suite-bunchapptestsuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">com.bunchapp.testCases.FilterCountryTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -391,10 +335,39 @@ Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-bunchapptestsuite-class-passed -->
+          <div class="suite-bunchapptestsuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bunchapp.testCases.RegistrationUsingPhoneNumberTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPhoneNumberRegistration">
+                  </a> <!-- invalidPhoneNumberRegistration -->
+                  <span class="method-name">invalidPhoneNumberRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validPhoneNumberRegistration">
+                  </a> <!-- validPhoneNumberRegistration -->
+                  <span class="method-name">validPhoneNumberRegistration</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateSpecialCharsNotAllowed">
+                  </a> <!-- validateSpecialCharsNotAllowed -->
+                  <span class="method-name">validateSpecialCharsNotAllowed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-bunchapptestsuite-class-passed -->
         </div> <!-- panel bunchapptestsuite -->
         <div panel-name="test-xml-bunchapptestsuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/Anand/eclipse-workspace/BunchApp_Appium_Challenge/Testng.xml</span>
+            <span class="header-content">/Users/Anand/git/BunchApp_Appium_Challenge/BunchApp_Appium_Challenge/Testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -451,49 +424,49 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(11);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'invalidPhoneNumberRegistration')
-data.setCell(0, 2, 'com.bunchapp.testCases.RegistrationUsingPhoneNumberTest')
-data.setCell(0, 3, 24266);
+data.setCell(0, 1, 'validateContinueButton')
+data.setCell(0, 2, 'com.bunchapp.testCases.OnboardingOptionsTest')
+data.setCell(0, 3, 15931);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validPhoneNumberRegistration')
-data.setCell(1, 2, 'com.bunchapp.testCases.RegistrationUsingPhoneNumberTest')
-data.setCell(1, 3, 20191);
+data.setCell(1, 1, 'validateRegistrationPageContent')
+data.setCell(1, 2, 'com.bunchapp.testCases.OnboardingOptionsTest')
+data.setCell(1, 3, 15645);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateCountryFilter')
 data.setCell(2, 2, 'com.bunchapp.testCases.FilterCountryTest')
-data.setCell(2, 3, 15395);
+data.setCell(2, 3, 14069);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'validateDefaultCountry')
-data.setCell(3, 2, 'com.bunchapp.testCases.RegistrationPageCountryTest')
-data.setCell(3, 3, 7454);
+data.setCell(3, 1, 'invalidPhoneNumberRegistration')
+data.setCell(3, 2, 'com.bunchapp.testCases.RegistrationUsingPhoneNumberTest')
+data.setCell(3, 3, 10595);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'validateSpecialCharsNotAllowed')
+data.setCell(4, 1, 'validPhoneNumberRegistration')
 data.setCell(4, 2, 'com.bunchapp.testCases.RegistrationUsingPhoneNumberTest')
-data.setCell(4, 3, 7270);
+data.setCell(4, 3, 10402);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'validateContinueButton')
-data.setCell(5, 2, 'com.bunchapp.testCases.OnboardingOptionsTest')
-data.setCell(5, 3, 5812);
+data.setCell(5, 1, 'validateSpecialCharsNotAllowed')
+data.setCell(5, 2, 'com.bunchapp.testCases.RegistrationUsingPhoneNumberTest')
+data.setCell(5, 3, 8076);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'validateFilterSpecialCharacters')
-data.setCell(6, 2, 'com.bunchapp.testCases.FilterCountryTest')
-data.setCell(6, 3, 4776);
+data.setCell(6, 1, 'validateDefaultCountry')
+data.setCell(6, 2, 'com.bunchapp.testCases.RegistrationPageCountryTest')
+data.setCell(6, 3, 7384);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'validateCountrySelection')
-data.setCell(7, 2, 'com.bunchapp.testCases.RegistrationPageCountryTest')
-data.setCell(7, 3, 3286);
+data.setCell(7, 1, 'validateFilterSpecialCharacters')
+data.setCell(7, 2, 'com.bunchapp.testCases.FilterCountryTest')
+data.setCell(7, 3, 4563);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'clickOnCountryCodebuttonSuccessfull')
+data.setCell(8, 1, 'validateCountrySelection')
 data.setCell(8, 2, 'com.bunchapp.testCases.RegistrationPageCountryTest')
-data.setCell(8, 3, 2017);
+data.setCell(8, 3, 2601);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'validateRegistrationPageContent')
-data.setCell(9, 2, 'com.bunchapp.testCases.OnboardingOptionsTest')
-data.setCell(9, 3, 2007);
+data.setCell(9, 1, 'clickOnCountryCodebuttonSuccessfull')
+data.setCell(9, 2, 'com.bunchapp.testCases.RegistrationPageCountryTest')
+data.setCell(9, 3, 2004);
 data.setCell(10, 0, 10)
 data.setCell(10, 1, 'validateCloseButton')
 data.setCell(10, 2, 'com.bunchapp.testCases.FilterCountryTest')
-data.setCell(10, 3, 972);
+data.setCell(10, 3, 1100);
 window.suiteTableData['bunchapptestsuite']= { tableData: data, tableDiv: 'times-div-bunchapptestsuite'}
 return data;
 }
@@ -552,96 +525,94 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">28 ms</span>
+                <span class="method-start">27 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validateContinueButton</span>
-                <span class="method-start">12177 ms</span>
+                <span class="method-start">10885 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">validateRegistrationPageContent</span>
-                <span class="method-start">17996 ms</span>
+                <span class="method-start">26825 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">20005 ms</span>
+                <span class="method-start">42472 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bunchapp.testCases.RegistrationPageCountryTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">20473 ms</span>
+                <span class="method-start">42964 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateDefaultCountry</span>
-                <span class="method-start">30523 ms</span>
+                <span class="method-start">52999 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">clickOnCountryCodebuttonSuccessfull</span>
-                <span class="method-start">37979 ms</span>
+                <span class="method-start">60385 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateCountrySelection</span>
-                <span class="method-start">39998 ms</span>
+                <span class="method-start">62390 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">43285 ms</span>
+                <span class="method-start">64992 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bunchapp.testCases.FilterCountryTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">43730 ms</span>
+                <span class="method-start">65447 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">validateCountryFilter</span>
-                <span class="method-start">53724 ms</span>
+                <span class="method-start">76822 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">validateFilterSpecialCharacters</span>
-                <span class="method-start">69120 ms</span>
+                <span class="method-start">90892 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateCloseButton</span>
-                <span class="method-start">73899 ms</span>
+                <span class="method-start">95456 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">74872 ms</span>
+                <span class="method-start">96557 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.bunchapp.testCases.RegistrationUsingPhoneNumberTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">75325 ms</span>
+                <span class="method-start">97021 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">validateSpecialCharsNotAllowed</span>
-                <span class="method-start">85386 ms</span>
+                <span class="method-start">107235 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">validPhoneNumberRegistration</span>
-                <span class="method-start">92657 ms</span>
+                <span class="method-start">115313 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">invalidPhoneNumberRegistration</span>
-                <span class="method-start">112850 ms</span>
+                <span class="method-start">125716 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">137118 ms</span>
+                <span class="method-start">136312 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

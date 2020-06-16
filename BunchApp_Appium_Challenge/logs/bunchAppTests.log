@@ -828,3 +828,193 @@
 2020-06-15 22:23:59 INFO  BunchAppTests:34 - ****** Phone Number text field should still show the default placeholder text ******
 2020-06-15 22:23:59 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
 2020-06-15 22:24:09 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:26:04 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:26:04 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:26:04 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:26:04 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:26:04 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:26:04 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:26:04 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:26:04 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:26:07 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:26:07 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:26:07 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:26:07 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:27:35 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:27:35 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:27:35 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:27:35 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:27:35 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:27:35 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:27:38 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:27:38 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:27:38 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:27:38 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:27:38 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:27:38 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:27:53 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:27:53 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:27:53 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:27:53 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:27:53 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:27:53 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:27:56 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:27:56 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:27:56 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:27:56 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:27:56 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:27:56 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:29:52 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:29:52 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:30:03 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:30:03 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:30:03 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:30:03 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:30:03 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:30:03 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:30:03 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:30:03 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:30:06 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:30:06 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:30:06 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:30:06 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:32:26 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:32:26 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:32:26 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:32:26 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:32:26 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:32:26 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:32:26 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:32:26 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:32:29 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:32:29 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:32:29 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:32:29 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:35:27 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:35:27 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:35:27 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:35:27 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:35:27 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:35:27 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:35:27 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:35:27 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:35:30 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:35:30 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:35:30 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:35:30 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:37:26 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:37:26 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:37:26 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:37:26 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:37:26 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:37:26 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:37:26 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:37:26 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:37:29 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:37:29 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:37:29 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:37:29 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:38:44 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:38:44 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:38:44 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:38:44 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:38:44 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:38:44 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:38:44 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:38:44 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:38:47 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:38:47 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:38:47 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:38:47 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:45:31 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:45:31 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:45:33 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:45:33 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:45:33 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:45:43 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:45:43 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:45:43 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:45:46 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:46:32 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:46:32 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:51:28 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:51:44 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:52:10 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:52:16 INFO  BunchAppTests:27 - ******** Test Case-Validate the default country is set to US on Registration page ********
+2020-06-16 10:52:18 INFO  BunchAppTests:33 - The Default Country is set to ==>US +1
+2020-06-16 10:52:18 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:52:20 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:52:21 INFO  BunchAppTests:78 - The user returns back to Registration page and the country selection is displayed in the country code button
+2020-06-16 10:52:34 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:52:34 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:52:40 INFO  BunchAppTests:27 - ******* Test Case - Filter by typing in a country name and verify the country name entered is returned on the top of the list ********
+2020-06-16 10:52:48 INFO  BunchAppTests:44 - The first result returned after filtering is==>Jamaica
+2020-06-16 10:52:48 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:52:53 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:52:53 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:52:54 INFO  BunchAppTests:41 - The heading on registration page is ====>Enter your phone number
+2020-06-16 10:53:04 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:53:09 INFO  BunchAppTests:26 - ****** Test Case - Validate the user must not be able to input special characters of any type in the phone number text field ******
+2020-06-16 10:53:12 INFO  BunchAppTests:34 - ****** Phone Number text field should still show the default placeholder text ******
+2020-06-16 10:53:12 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:53:23 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 10:54:11 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:54:15 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:54:17 INFO  BunchAppTests:41 - The heading on registration page is ====>Enter your phone number
+2020-06-16 10:54:28 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:54:32 INFO  BunchAppTests:27 - ******** Test Case-Validate the default country is set to US on Registration page ********
+2020-06-16 10:54:36 INFO  BunchAppTests:33 - The Default Country is set to ==>US +1
+2020-06-16 10:54:36 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:54:38 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:54:41 INFO  BunchAppTests:78 - The user returns back to Registration page and the country selection is displayed in the country code button
+2020-06-16 10:54:54 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:54:54 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:55:01 INFO  BunchAppTests:27 - ******* Test Case - Filter by typing in a country name and verify the country name entered is returned on the top of the list ********
+2020-06-16 10:55:29 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:55:52 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:57:11 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:57:16 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:57:17 INFO  BunchAppTests:41 - The heading on registration page is ====>Enter your phone number
+2020-06-16 10:57:28 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 10:57:32 INFO  BunchAppTests:27 - ******** Test Case-Validate the default country is set to US on Registration page ********
+2020-06-16 10:57:35 INFO  BunchAppTests:33 - The Default Country is set to ==>US +1
+2020-06-16 10:57:35 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 10:57:37 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 10:57:39 INFO  BunchAppTests:78 - The user returns back to Registration page and the country selection is displayed in the country code button
+2020-06-16 10:57:50 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 10:57:50 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 10:57:57 INFO  BunchAppTests:27 - ******* Test Case - Filter by typing in a country name and verify the country name entered is returned on the top of the list ********
+2020-06-16 10:58:05 INFO  BunchAppTests:44 - The first result returned after filtering is==>Jamaica
+2020-06-16 10:58:05 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 10:58:10 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 10:58:10 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 10:58:11 INFO  BunchAppTests:41 - The heading on registration page is ====>Enter your phone number
+2020-06-16 10:58:21 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 10:58:26 INFO  BunchAppTests:26 - ****** Test Case - Validate the user must not be able to input special characters of any type in the phone number text field ******
+2020-06-16 10:58:28 INFO  BunchAppTests:34 - ****** Phone Number text field should still show the default placeholder text ******
+2020-06-16 10:58:28 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 10:58:39 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 11:00:38 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 11:00:43 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 11:00:45 INFO  BunchAppTests:41 - The heading on registration page is ====>Enter your phone number
+2020-06-16 11:00:55 INFO  BunchAppTests:22 - ***** Pre-requisite: The user clicks on Continue with SMS button to be on the Registration Page *****
+2020-06-16 11:01:00 INFO  BunchAppTests:27 - ******** Test Case-Validate the default country is set to US on Registration page ********
+2020-06-16 11:01:02 INFO  BunchAppTests:33 - The Default Country is set to ==>US +1
+2020-06-16 11:01:02 INFO  BunchAppTests:43 - ********* Test Case-Validate the user is able to click on country button and lands on Country selection page with the list of countries *********
+2020-06-16 11:01:05 INFO  BunchAppTests:69 - ****** Test Case-Validate the user can select a Country from the Country selection page and that is set as the country on Registration Page ******
+2020-06-16 11:01:08 INFO  BunchAppTests:78 - The user returns back to Registration page and the country selection is displayed in the country code button
+2020-06-16 11:01:19 INFO  BunchAppTests:18 - **** Pre-requisite: The user must be on Country selection page ********
+2020-06-16 11:01:19 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 11:01:25 INFO  BunchAppTests:27 - ******* Test Case - Filter by typing in a country name and verify the country name entered is returned on the top of the list ********
+2020-06-16 11:01:32 INFO  BunchAppTests:44 - The first result returned after filtering is==>Jamaica
+2020-06-16 11:01:33 INFO  BunchAppTests:57 - ********* Test Case - Validate on entering any special character in the filter field, no suggestions must be returned *******
+2020-06-16 11:01:37 INFO  BunchAppTests:82 - ******* Validate on clicking Close(X) button next to filter text field, the user is taken back to Registration using SMS page ********
+2020-06-16 11:01:37 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******
+2020-06-16 11:01:38 INFO  BunchAppTests:41 - The heading on registration page is ====>Enter your phone number
+2020-06-16 11:01:48 INFO  BunchAppTests:20 - ****** Pre-requisite: The user must click on Continue with SMS button to be on registration Page *******
+2020-06-16 11:01:53 INFO  BunchAppTests:26 - ****** Test Case - Validate the user must not be able to input special characters of any type in the phone number text field ******
+2020-06-16 11:01:55 INFO  BunchAppTests:34 - ****** Phone Number text field should still show the default placeholder text ******
+2020-06-16 11:01:56 INFO  BunchAppTests:49 - ******* Test case - Validate on entering a valid phone number and clicking Continue, the user is on Enter pin code page *******
+2020-06-16 11:02:06 INFO  BunchAppTests:79 - ****** Test Case - Validate on entering an invalid number and clicking continue, an error pop up must be displayed ******
+2020-06-16 11:02:52 INFO  BunchAppTests:19 - ********* Test Case- Validate the user clicks on Continue with SMS button and lands on Registration Page *********
+2020-06-16 11:03:13 INFO  BunchAppTests:33 - ****** Test Case - Validate the User is on Registration Page by reading the heading of the page*******

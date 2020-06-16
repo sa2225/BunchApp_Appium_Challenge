@@ -40,8 +40,7 @@ public class TestBase {
 			cap.setCapability(MobileCapabilityType.DEVICE_NAME, "OnePlus 5T");
 			cap.setCapability(MobileCapabilityType.NEW_COMMAND_TIMEOUT, 60);
 			cap.setCapability(MobileCapabilityType.UDID, "a62f14be");
-			cap.setCapability(MobileCapabilityType.APP,
-					"/Users/Anand/eclipse-workspace/BunchApp_Appium_Challenge/apkApp/app-staging-release-bitrise-signed.apk");
+			cap.setCapability(MobileCapabilityType.APP, prop.getProperty("app_location"));
 			cap.setCapability("appPackage", "live.bunch.group.video.chat.party.games.staging");
 			cap.setCapability("appActivity", "live.bunch.group.video.chat.party.games.MainActivity");
 

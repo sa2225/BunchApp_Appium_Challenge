@@ -14,16 +14,15 @@
           <include name="validateFilterSpecialCharacters"/>
         </methods>
       </class> <!-- com.bunchapp.testCases.FilterCountryTest -->
-      <class name="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest">
+      <class name="com.bunchapp.testCases.OnboardingOptionsTest">
         <methods>
-          <include name="validPhoneNumberRegistration"/>
+          <include name="validateRegistrationPageContent"/>
           <include name="setUp"/>
           <include name="setup"/>
-          <include name="invalidPhoneNumberRegistration"/>
-          <include name="validateSpecialCharsNotAllowed"/>
           <include name="tearDown"/>
+          <include name="validateContinueButton"/>
         </methods>
-      </class> <!-- com.bunchapp.testCases.RegistrationUsingPhoneNumberTest -->
+      </class> <!-- com.bunchapp.testCases.OnboardingOptionsTest -->
     </classes>
   </test> <!-- bunchapptests(failed) -->
 </suite> <!-- Failed suite [bunchapptestsuite] -->
