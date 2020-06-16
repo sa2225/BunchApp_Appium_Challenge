@@ -55,21 +55,21 @@ export PATH=$ANDROID_HOME/tools:$PATH
 11. Validate on entering an invalid number and clicking continue, an error pop up must be displayed prompting the user to enter a valid number.
 
 **Test report**:
-There is an extent report generated at the end of the test suite run under Reports/extent.html to show the test cases passed vs failed
+There is an extent report generated at the end of the test suite run under Reports/extent.html to show the test cases passed vs failed.
 
 **Events Logged using Log4j API**:
-The events logged during execution are captured on console as well as under logs/bunchAppTests.log
+The events logged during execution are captured on console as well as under logs/bunchAppTests.log.
 
 **Steps to Run the test suite**:
 
 **Pre-requisite to run**: 
-Please change the Desired Capabilities in the TestBase.java class according to the device and version that is being used. Also, UDID would need to be changed which can be fetched by running **adb devices** on terminal when Appium server is talking to the device
+Please change the Desired Capabilities in the TestBase.java class according to the device and version that is being used. Also, UDID would need to be changed which can be fetched by running **adb devices** on terminal when Appium server is talking to the device.
 
-Right click on Testng.xml> Run As>TestNG Suite
+a. Right click on Testng.xml> Run As>TestNG Suite
 OR
-Right click on pom.xml>Run As>Maven Test
+b. Right click on pom.xml>Run As>Maven Test
 OR
-an be directly run from terminal using below steps:
+c. Can be directly run from terminal using below steps:
   a. cd to project location
   b. mvn clean install
   
