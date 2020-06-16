@@ -1,4 +1,4 @@
-BunchApp_Appium_Challenge: Coding Challenge
+***BunchApp_Appium_Challenge: Coding Challenge***
 
 **Project Setup**:
 
