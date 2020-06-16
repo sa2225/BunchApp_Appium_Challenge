@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="14" passed="7" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-15T22:07:37 EDT" name="bunchapptestsuite" finished-at="2020-06-15T22:09:55 EDT" duration-ms="137749">
+    <groups>
+    </groups>
+    <test started-at="2020-06-15T22:07:37 EDT" name="bunchapptests" finished-at="2020-06-15T22:09:55 EDT" duration-ms="137749">
+      <class name="com.bunchapp.testCases.RegistrationPageCountryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bunchapp.testCases.RegistrationPageCountryTest@29647f75]" started-at="2020-06-15T22:07:58 EDT" name="setUp" finished-at="2020-06-15T22:08:08 EDT" duration-ms="10049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDefaultCountry()[pri:3, instance:com.bunchapp.testCases.RegistrationPageCountryTest@29647f75]" started-at="2020-06-15T22:08:08 EDT" name="validateDefaultCountry" finished-at="2020-06-15T22:08:15 EDT" duration-ms="7454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDefaultCountry -->
+        <test-method signature="clickOnCountryCodebuttonSuccessfull()[pri:4, instance:com.bunchapp.testCases.RegistrationPageCountryTest@29647f75]" started-at="2020-06-15T22:08:15 EDT" name="clickOnCountryCodebuttonSuccessfull" finished-at="2020-06-15T22:08:17 EDT" duration-ms="2017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCountryCodebuttonSuccessfull -->
+        <test-method signature="validateCountrySelection()[pri:5, instance:com.bunchapp.testCases.RegistrationPageCountryTest@29647f75]" started-at="2020-06-15T22:08:17 EDT" name="validateCountrySelection" finished-at="2020-06-15T22:08:20 EDT" duration-ms="3286" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountrySelection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bunchapp.testCases.RegistrationPageCountryTest@29647f75]" started-at="2020-06-15T22:08:20 EDT" name="tearDown" finished-at="2020-06-15T22:08:21 EDT" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bunchapp.testCases.RegistrationPageCountryTest -->
+      <class name="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bunchapp.testCases.RegistrationUsingPhoneNumberTest@d6e7bab]" started-at="2020-06-15T22:08:52 EDT" name="setUp" finished-at="2020-06-15T22:09:03 EDT" duration-ms="10060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSpecialCharsNotAllowed()[pri:9, instance:com.bunchapp.testCases.RegistrationUsingPhoneNumberTest@d6e7bab]" started-at="2020-06-15T22:09:03 EDT" name="validateSpecialCharsNotAllowed" finished-at="2020-06-15T22:09:10 EDT" duration-ms="7270" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RR19-MB34.local', ip: '2601:86:600:5040:0:0:0:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RR19-MB34.local', ip: '2601:86:600:5040:0:0:0:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at io.appium.java_client.DefaultGenericMobileElement.execute(DefaultGenericMobileElement.java:45)
+at io.appium.java_client.MobileElement.execute(MobileElement.java:1)
+at io.appium.java_client.android.AndroidElement.execute(AndroidElement.java:1)
+at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+at com.bunchapp.testCases.RegistrationUsingPhoneNumberTest.validateSpecialCharsNotAllowed(RegistrationUsingPhoneNumberTest.java:32)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSpecialCharsNotAllowed -->
+        <test-method signature="validPhoneNumberRegistration()[pri:10, instance:com.bunchapp.testCases.RegistrationUsingPhoneNumberTest@d6e7bab]" started-at="2020-06-15T22:09:10 EDT" name="validPhoneNumberRegistration" finished-at="2020-06-15T22:09:30 EDT" duration-ms="20191" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RR19-MB34.local', ip: '2601:86:600:5040:0:0:0:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
+*** Element info: {Using=xpath, value=//*[@text='Phone Number' and @class='android.widget.EditText']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RR19-MB34.local', ip: '2601:86:600:5040:0:0:0:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
+*** Element info: {Using=xpath, value=//*[@text='Phone Number' and @class='android.widget.EditText']}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at com.bunchapp.testCases.RegistrationUsingPhoneNumberTest.validPhoneNumberRegistration(RegistrationUsingPhoneNumberTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validPhoneNumberRegistration -->
+        <test-method signature="invalidPhoneNumberRegistration()[pri:11, instance:com.bunchapp.testCases.RegistrationUsingPhoneNumberTest@d6e7bab]" started-at="2020-06-15T22:09:30 EDT" name="invalidPhoneNumberRegistration" finished-at="2020-06-15T22:09:54 EDT" duration-ms="24266" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RR19-MB34.local', ip: '2601:86:600:5040:0:0:0:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RR19-MB34.local', ip: '2601:86:600:5040:0:0:0:702b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.3', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, databaseEnabled: false, desired: {app: /Users/Anand/eclipse-worksp..., appActivity: live.bunch.group.video.chat..., appPackage: live.bunch.group.video.chat..., automationName: Appium, deviceName: OnePlus 5T, newCommandTimeout: 60, platformName: android, platformVersion: 9.0, udid: a62f14be}, deviceApiLevel: 28, deviceManufacturer: OnePlus, deviceModel: ONEPLUS A5010, deviceName: a62f14be, deviceScreenDensity: 380, deviceScreenSize: 1080x2160, deviceUDID: a62f14be, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.375, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 57, takesScreenshot: true, udid: a62f14be, viewportRect: {height: 1989, left: 0, top: 57, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c923932d-78ab-4b0d-99fe-5d6cc9e926df
+*** Element info: {Using=xpath, value=/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.EditText}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:151)
+at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at com.bunchapp.testCases.RegistrationUsingPhoneNumberTest.invalidPhoneNumberRegistration(RegistrationUsingPhoneNumberTest.java:93)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPhoneNumberRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bunchapp.testCases.RegistrationUsingPhoneNumberTest@d6e7bab]" started-at="2020-06-15T22:09:54 EDT" name="tearDown" finished-at="2020-06-15T22:09:55 EDT" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bunchapp.testCases.RegistrationUsingPhoneNumberTest -->
+      <class name="com.bunchapp.testCases.FilterCountryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bunchapp.testCases.FilterCountryTest@3315d2d7]" started-at="2020-06-15T22:08:21 EDT" name="setUp" finished-at="2020-06-15T22:08:31 EDT" duration-ms="9994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateCountryFilter()[pri:6, instance:com.bunchapp.testCases.FilterCountryTest@3315d2d7]" started-at="2020-06-15T22:08:31 EDT" name="validateCountryFilter" finished-at="2020-06-15T22:08:46 EDT" duration-ms="15395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCountryFilter -->
+        <test-method signature="validateFilterSpecialCharacters()[pri:7, instance:com.bunchapp.testCases.FilterCountryTest@3315d2d7]" started-at="2020-06-15T22:08:46 EDT" name="validateFilterSpecialCharacters" finished-at="2020-06-15T22:08:51 EDT" duration-ms="4776" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The Test case has failed as suggestions are still returned on the page expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The Test case has failed as suggestions are still returned on the page expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.failNotEquals(Assert.java:969)
+at org.testng.Assert.assertTrue(Assert.java:43)
+at com.bunchapp.testCases.FilterCountryTest.validateFilterSpecialCharacters(FilterCountryTest.java:70)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFilterSpecialCharacters -->
+        <test-method signature="validateCloseButton()[pri:8, instance:com.bunchapp.testCases.FilterCountryTest@3315d2d7]" started-at="2020-06-15T22:08:51 EDT" name="validateCloseButton" finished-at="2020-06-15T22:08:52 EDT" duration-ms="972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCloseButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bunchapp.testCases.FilterCountryTest@3315d2d7]" started-at="2020-06-15T22:08:52 EDT" name="tearDown" finished-at="2020-06-15T22:08:52 EDT" duration-ms="453" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bunchapp.testCases.FilterCountryTest -->
+      <class name="com.bunchapp.testCases.OnboardingOptionsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.bunchapp.testCases.OnboardingOptionsTest@355ce81c]" started-at="2020-06-15T22:07:37 EDT" name="setup" finished-at="2020-06-15T22:07:37 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.bunchapp.testCases.OnboardingOptionsTest@355ce81c]" started-at="2020-06-15T22:07:37 EDT" name="setUp" finished-at="2020-06-15T22:07:49 EDT" duration-ms="12142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateContinueButton()[pri:1, instance:com.bunchapp.testCases.OnboardingOptionsTest@355ce81c]" started-at="2020-06-15T22:07:49 EDT" name="validateContinueButton" finished-at="2020-06-15T22:07:55 EDT" duration-ms="5812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContinueButton -->
+        <test-method signature="validateRegistrationPageContent()[pri:2, instance:com.bunchapp.testCases.OnboardingOptionsTest@355ce81c]" started-at="2020-06-15T22:07:55 EDT" name="validateRegistrationPageContent" finished-at="2020-06-15T22:07:57 EDT" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegistrationPageContent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.bunchapp.testCases.OnboardingOptionsTest@355ce81c]" started-at="2020-06-15T22:07:57 EDT" name="tearDown" finished-at="2020-06-15T22:07:58 EDT" duration-ms="467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.bunchapp.testCases.OnboardingOptionsTest -->
+    </test> <!-- bunchapptests -->
+  </suite> <!-- bunchapptestsuite -->
+</testng-results>

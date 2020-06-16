@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite verbose="1" name="bunchapptestsuite">
+<listeners>
+<listener class-name="com.bunchapp.utilities.Listeners"/>
+</listeners>
+    <test thread-count="4" name="bunchapptests">
+        <classes>
+            <class name="com.bunchapp.testCases.OnboardingOptionsTest"/>
+            <class name="com.bunchapp.testCases.RegistrationPageCountryTest"/>
+            <class name="com.bunchapp.testCases.FilterCountryTest"/>
+            <class name="com.bunchapp.testCases.RegistrationUsingPhoneNumberTest"/>
+        </classes>
+    </test>
+</suite>
